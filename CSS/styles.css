@@ -1,0 +1,145 @@
+
+
+body{
+  margin:0;
+  text-align:center;
+  font-family:"Merriweather",serif;
+  color:#40514E;
+}
+
+.profile{
+  width: 50%;
+  margin:100px auto 100px;
+}
+.profile-pic{
+  width:25%;
+}
+.top_container{
+  padding-top: 100px;
+  background-color:#e4f9f5;
+  position: relative;
+}
+.top-cloud{
+  position: absolute;
+  top:40px;
+  right: 300px;
+}
+.bottom-cloud{
+  position: absolute;
+  bottom: 200px;
+  left: 250px;}
+
+.bottom-container{
+margin-top:100px;
+padding: 50px 0 25px;
+background-color: #66BFBF;
+}
+h1{
+  margin:50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size:5.625rem;
+  color:#66BFBF;
+}
+h2{
+  font-family: "Montserrat",sans-serif;
+  font-size:2.5rem;
+  font-weight: normal;
+  color:#66BFBF;
+  margin-bottom: 50px;
+}
+h3{
+  font-family: "Montserrat",sans-serif;
+  color:#11999E;
+  }
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.web-development-img{
+  width:25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.photo-editing-img{
+  width:25%;
+  float: right;
+  margin-left: 30px;
+}
+/*.web-development-text{
+  clear: left;
+}
+.photo-editing-text{
+  clear: right;
+}*/
+.web{
+  text-decoration: underline;
+}
+hr{
+  width:5%;
+  height:0;
+  border-style:dotted none none;
+  border-width:5px;
+  border-color: #8db1ab;
+
+}
+.skills{
+  margin: 100px auto auto;
+}
+.contact-me{
+  width:50%;
+  margin: 100px auto auto;
+}
+.contact-me-message{
+  width:50%;
+  margin:40px auto 60px;
+}
+
+.footer-link{
+  color: #11999E;
+}
+a{
+font-family: "Montserrat",sans-serif;
+text-decoration: none;
+margin:auto 25px;
+}
+a:hover{
+  color:#EAF6F6;
+}
+.copyright{
+  color:#EAF6F6;
+  font-size: 0.75rem;
+  margin: 50px 0 0;
+}
+.intro{
+  width:50%;
+  margin:auto;
+}
+p{
+  line-height: 2;
+}
+
+.btn {
+	box-shadow: 0 0 0 0 #3dc21b;
+	background:linear-gradient(to bottom, #30e3cb 5%, #2bc4ad 100%);
+	background-color:#30e3cb;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: "Montserrat",sans-serif;
+	font-size:17px;
+	padding:10px 10px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #2f6627;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #2bc4ad 5%, #30e3cb 100%);
+	background-color:#2bc4ad;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
